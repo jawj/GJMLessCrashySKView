@@ -12,16 +12,13 @@
 
 @class GJMLessCrashySKScene;
 
-@interface GJMLessCrashySKView : UIView
+@interface GJMLessCrashySKView : UIView {
+  SKView* _skView;
+  UIView* _snapshotView;
+  GJMLessCrashySKScene* _skScene;
+}
 
-@property (nonatomic) SKView* skView;
-@property (nonatomic) UIView* snapshotView;
-@property (nonatomic) GJMLessCrashySKScene* skScene;
-@property (SK_NONATOMIC_IOSONLY, readonly) SKScene *scene;
-
-@end
-
-@interface GJMLessCrashySKView (ForwardedMethods)
+@property (nonatomic, readonly) SKScene *scene;
 
 - (void)presentScene:(SKScene *)scene;
 - (SKTexture *)textureFromNode:(SKNode *)node;
