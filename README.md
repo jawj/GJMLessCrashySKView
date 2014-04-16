@@ -1,9 +1,7 @@
 GJMLessCrashySKView
 ===================
 
-An SKView stand-in that doesn't crash your app when audio is playing or freeze up when temporarily disappeared.
-
-Addresses this annoying bug in iOS 7.0 and 7.1: http://stackoverflow.com/questions/18976813/sprite-kit-playing-sound-leads-to-app-termination
+An SKView stand-in that doesn't crash your app when audio is playing or freeze up when temporarily disappeared, addressing this annoying bug in iOS 7.0 and 7.1: http://stackoverflow.com/questions/18976813/sprite-kit-playing-sound-leads-to-app-termination
 
 ### What it does
 
