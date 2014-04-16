@@ -7,6 +7,7 @@
 //
 
 #import "GJMLessCrashySKView.h"
+
 #define NCenter NSNotificationCenter.defaultCenter
 #define AppActive (UIApplication.sharedApplication.applicationState == UIApplicationStateActive)
 
